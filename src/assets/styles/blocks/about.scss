@@ -30,3 +30,8 @@
     margin: 5px;
 }
 
+.about__paragraph--img {
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+}
