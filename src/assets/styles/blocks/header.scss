@@ -50,7 +50,15 @@
     }
 }
 
+.header__item--in {
+    background-image: svg-load('in.svg', fill=#fff);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45px;
+    height: 45px;
+    transition: background-image 0.5s;
 
+}
 
 
 
