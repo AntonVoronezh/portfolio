@@ -57,7 +57,9 @@
     width: 45px;
     height: 45px;
     transition: background-image 0.5s;
-
+    &:hover {
+        background-image: svg-load('in.svg', fill=#1aa5e0);
+    }
 }
 
 
