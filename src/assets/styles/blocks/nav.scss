@@ -4,6 +4,8 @@
 
 .nav__list {
     margin-left: 10px;
-
+    @include phones {
+        display: none;
+    }
 }
 
