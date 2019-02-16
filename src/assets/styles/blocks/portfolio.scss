@@ -94,6 +94,14 @@
     top: 10px;
 }
 
+.portfolio__block-link {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.5s;
+    &:hover {
+        color: #1aa5e0;
+    }
+}
 
 
 
