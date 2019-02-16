@@ -60,6 +60,13 @@
     font-size: 16px;
 }
 
+.portfolio__block-link--front {
+    left: 10px;
+    top: 10px;
+    @include phones {
+        top: 240px;
+    }
+}
 
 
 
