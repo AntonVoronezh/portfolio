@@ -123,7 +123,19 @@
     }
 }
 
-
+.portfolio__title {
+    font-size: 22px;
+    text-align: center;
+    @include tablets {
+        font-size: 18px;
+    }
+    @include phones {
+        font-size: 16px;
+    }
+    &--first {
+        margin-top: 10px;
+    }
+}
 
 
 
