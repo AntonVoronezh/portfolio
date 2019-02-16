@@ -194,7 +194,9 @@
     &--strong {
         font-weight: 500;
     }
-
+    &::before {
+        content: "* ";
+    }
 }
 
 
