@@ -161,6 +161,11 @@
     }
 }
 
+.portfolio__block-img--phones {
+    @include tablets {
+        display: none;
+    }
+}
 
 
 
