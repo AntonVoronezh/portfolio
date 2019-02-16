@@ -28,7 +28,17 @@
     font-size: 22px;
 }
 
+.portfolio__block-link-git {
+    color: #000;
+    position: absolute;
+    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 10px;
+    text-decoration: none; // color: #000;
+    transition: color 0.5s;
 
+}
 
 
 
