@@ -5,6 +5,16 @@
     margin-bottom: 5px;
 }
 
+.portfolio__img {
+    margin-top: 60px;
+    width: 100%;
+    @include tablets {
+        margin-top: 70px;
+    }
+    @include phones {
+        margin-top: 50px;
+    } // border: 1px solid #000000;
+}
 
 
 
