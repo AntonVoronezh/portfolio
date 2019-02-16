@@ -222,5 +222,11 @@
     justify-content: flex-end;
 }
 
+.other__img {
+    width: 200px;
+    @include phones {
+        width: 120px;
+    }
+}
 
 
