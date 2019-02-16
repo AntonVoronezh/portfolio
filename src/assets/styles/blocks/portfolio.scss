@@ -113,7 +113,15 @@
     }
 }
 
-
+.portfolio__text {
+    border: 1px solid #999;
+    height: calc(100% - 40px);
+    margin-top: 40px;
+    display: flex;
+    &--first {
+        flex-direction: column;
+    }
+}
 
 
 
