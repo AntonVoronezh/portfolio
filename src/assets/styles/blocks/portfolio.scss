@@ -205,7 +205,14 @@
     flex-wrap: wrap;
 }
 
-
+.other__wrap {
+    border: 1px solid #999;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 
