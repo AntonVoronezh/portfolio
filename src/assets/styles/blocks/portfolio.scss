@@ -149,7 +149,17 @@
     margin-right: 5px;
 }
 
-
+.portfolio__block-img-first {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 250px;
+    @include tablets {
+        height: 150px;
+    }
+    @include phones {
+        height: 100px;
+    }
+}
 
 
 
