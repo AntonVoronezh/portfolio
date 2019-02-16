@@ -37,7 +37,22 @@
     top: 10px;
     text-decoration: none; // color: #000;
     transition: color 0.5s;
-
+    &:hover {
+        color: #1aa5e0;
+    }
+    &--front {
+        @include tablets {
+            top: 300px;
+        }
+        @include phones {
+            top: 10px;
+        }
+    }
+    &--back {
+        @include phones {
+            display: none;
+        }
+    }
 }
 
 
