@@ -229,4 +229,18 @@
     }
 }
 
+.other__link {
+    color: #000;
+    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    text-decoration: none;
+    transition: color 0.5s;
+    &:hover {
+        color: #1aa5e0;
+    }
+    @include phones {
+        font-size: 13px;
+    }
+}
 
