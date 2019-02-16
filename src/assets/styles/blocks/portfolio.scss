@@ -187,7 +187,15 @@
     }
 }
 
+.portfolio__paragraph {
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    &--strong {
+        font-weight: 500;
+    }
 
+}
 
 
 
