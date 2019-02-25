@@ -223,7 +223,8 @@
 }
 
 .other__img {
-    width: 200px;
+    max-height: 285px;
+    max-width: 200px;
     @include phones {
         width: 120px;
     }
